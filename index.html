@@ -37,7 +37,7 @@
         <form action="#" method="get">
             <input type="text" name="" id="id="login_id"> 
             패스워드 입력<input type="password" name="" id="">
-            전화번호<input type="tel" name="" id="">
+            전화번호<input type="tel" name="" id="" disabled>
             숫자<input type="number" name="" id="">
             웹주소<input type="url" name="" id="">
             검색어<input type="search" name="" id="">
@@ -58,9 +58,47 @@
             <textarea name="" id="" cols="30" rows="10">
                 하고싶은 말을 쓰세요
             </textarea>
+            <select name="city" id="city">
+                <option value="강북구">강북구</option>
+                <option value="강남구">강남구</option>
+                <option value="서초구">서초구</option>
+                <option value="중원구">중원구</option>
+                <option value="분당구">분당구</option>
+              </select>
+              
             <input type="submit" value="로그인하기">
             <input type="reset" value="양식 초기화">
         </form>
     </div>
+    <div style="width: 600px; text-align: center;">
+    <table width="500px",border="2"cellspeacing="3">
+        <caption style="color:red; font-weight: bold;"">제품 주문표</caption>
+        <col style="width:10%">
+        <colgroup span="3" style="width: 30%;font-style: italic;"></colgroup>
+        <col style="width:30%">
+        <thead>
+            <tr>
+                <th scope="col">순번</th>
+                <th>품명</th>
+                <th>단가</th>
+                <th>수량</th>
+                <th>비교</th>
+            </tr>
+             </thead>
+             <tfoot>
+                <tr>합계</tr>
+                <td colspan="4">0000원</td>
+             </tfoot>
+             <tbody>
+                <tr></tr>
+             </tbody>
+    </table>
+
+
+
+
+
+    
+    
 </body>
 </html>
