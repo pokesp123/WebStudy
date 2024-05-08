@@ -1,36 +1,8 @@
-img{
-    width: 200px;
+/* 전역 CSS 정의 */
+h1{
+    font-size: 24px;
+    color:red;
+    background-color: yellow;
 }
-dt{
-    font-weight: bold;
-}
-div{
-    
-    display: inline-block;
-    border-top:solid 4px gray;
-    border-left:solid 4px gray;
-    border-right:solid 4px gray;
-    border-bottom:solid 4px gray;
-    margin:10px;
-    padding:10px 30px 10px 30px;
-    width: 300px;
-}
-div.contents{
-    background-color: gold;
-}
-div#ootd dt{
-    background-color: cyan;
-    text-decoration:underline red ;
-}
-div#login_form{
-    text-align: center;
-    width: 500px;
-    height: auto;
-}
-div#login_form input{
-    display: block;
-    margin:10px;
-}
-p{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
+
+/* footer 영역 css 정의 */
